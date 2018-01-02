@@ -94,7 +94,7 @@ window.onload = window.onresize = function(){
 	}
 	/*上下翻页*/
 	function scrollDown(){
-		if(index==5){
+		if(index==2){
 			return false;
 		}
 		lis[index].className="";
