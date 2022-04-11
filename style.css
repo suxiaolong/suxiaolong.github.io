@@ -62,7 +62,7 @@ html,body{height: 100%;font-family: "微软雅黑";min-width: 320px;}
 }
 .page1 .contact .icon{
 	display: block;
-	width: 33.3%;height: 100%;
+	width: 20%;height: 100%;
 	float:left;
 	background-size: 50px auto;
 	background-repeat: no-repeat;
@@ -89,6 +89,16 @@ html,body{height: 100%;font-family: "微软雅黑";min-width: 320px;}
 .page1 .contact .qq{
 	background-image: url('./icon.png');
 	background-position: 20px -53px;
+}
+.page1 .contact .gitee{
+	background-image: url(./gitee.svg);
+	width: 14.3%;
+	height: 100%;
+	float: left;
+	background-size: 25px auto;
+	background-repeat: no-repeat;
+	-webkit-filter: grayscale(1);
+	background-position: 20px 0px;
 }
 .page1 .contact .github{
 	background-image: url('./icon.png');
